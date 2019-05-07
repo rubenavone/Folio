@@ -11,7 +11,9 @@
     Écrire la totalité en anglais.
     Trouver une colorimetrie personalisé, changer également la police d'écriture.
     Faire une refacto et prendre des note sur la sémantique tout au long du projet.
-    
+    Changer la taille des hr lors de l'apparition a l'écran ! 
+
     Try to write all the project in english (or traduced).
     Find personalized color, change all the fonts.
     Do refacto and takes few notes about the semantics.
+    Change hr size on scroll !
