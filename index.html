@@ -9,9 +9,26 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+        integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+        crossorigin="" />
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="main.css">
     <style>
-
+        section.flexbox-section {
+            width: 100%;
+            
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        section.flexbox-section p {
+            max-width: 900px;
+            text-align: center;
+            margin-bottom: 35px;
+            padding: 0 20px;
+            line-height: 1.5;
+        }
     </style>
 </head>
 
@@ -119,6 +136,40 @@
     </div>
 
     <!--**************************************************-->
+    <div id="famous-quotes">
+        <hr>
+        <h3 class="title"> Where i learn</h3>
+
+        <p class="portrait"><img src="img/openClassroom.png" alt="website openclassroom" class="portrait-photos"></p>
+        <p class="quote">&ldquo; Make education accessible &rdquo;</p>
+        <p class="author">&mdash; OpenClassroom</p>
+
+        <p class="portrait"><img src="img/simplon.png" alt="website openclassroom" class="portrait-photos"></p>
+        <p class="quote">&ldquo; Learn by demerde yourself ! &rdquo;</p>
+        <p class="author">&mdash; Simplon.co</p>
+
+        <p class="portrait"><img src="img/graffikart.jpeg" alt="website openclassroom" class="portrait-photos"></p>
+        <p class="quote">&ldquo; Partager mes compétences et mes découvertes avec les personnes qui ont cette même
+            passion pour le web &rdquo;</p>
+        <p class="author">&mdash; Graffikart</p>
+
+        <p class="portrait"><img src="img/diy.png" alt="website openclassroom" class="portrait-photos"></p>
+        <p class="quote">&ldquo; I have learn a lot by myself looking throught the world wide web &rdquo;</p>
+        <hr>
+    </div>
+    <!--**************************************************-->
+    <div id="contact">
+        <h3 class="title">Where im i Actually ?</h3>
+        <section class="flexbox-section">
+            <div id="mapid" style="height: 400px; "> 
+
+            </div>
+            <p>121 rue de Fontcouvert - Montpellier</p>
+        </section>
+    </div>
+
+
+    <!--**************************************************-->
     <footer id="social-media">
         <ul>
             <li>
@@ -135,11 +186,17 @@
         <p>&copy;
             <script>
                 document.write(new Date().getFullYear());
+                
             </script> It sure is fun create website !</p>
         <p>&ldquo; Tell me and I forget, teach me and i may remember, involve me and i learn.&rdquo; <br>
             &mdash;Benjamin Franklin</p>
     </footer>
 
+     <!--**************************************************-->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+    integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+    crossorigin=""></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
     <script src="main.js"></script>
 </body>
 
