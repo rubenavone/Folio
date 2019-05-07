@@ -3,3 +3,16 @@ In this file you will find all the textual content of the project.
 
 Notes: 
 I have found a little mistake with title two h3 in the project;
+
+
+Textual content: 
+
+Header:
+
+About:
+
+Gallery:
+
+Getting-around:
+
+Footer:
