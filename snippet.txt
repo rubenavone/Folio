@@ -1,0 +1,9 @@
+Fichier contenant divers snippet, 
+les logo utilisé avec font awesome,
+les polices d'écriture utilisé avec google font,
+la colorimétrie du projet.
+
+Files that contain all snippets,
+logo used with font awesome,
+fonts used with google fonts,
+and all the colors of the project.

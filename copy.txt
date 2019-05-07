@@ -1,0 +1,2 @@
+Dans ce dossier vous trouverez le contenu textuel utilisée pour le projet.
+In this file you will find all the textual content of the project.
