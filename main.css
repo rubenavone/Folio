@@ -42,6 +42,69 @@ hr {
     margin: 40px auto;
 }
 /*-------------------
+    Nav
+    --------------*/
+header {
+    background-color: rgba(0, 0, 0, .7);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 35px 100px 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    opacity: .6;
+    cursor: pointer;
+}
+header a:hover {
+    opacity: 1;   
+}
+header nav ul {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+header nav li {
+    margin: 0 6px;
+}
+@media(max-width: 1000px){
+    header {
+        text-align: center;
+        flex-direction: column;
+        padding: 20px 50px;
+    }
+
+    header img {
+        width: 75%;
+    }
+    header nav {
+        justify-content: space-around;
+    }
+
+    header h2 {
+        margin-bottom: 15px;
+    }
+    header nav li {
+        margin: 0 6px;
+    }
+    header nav li:first-child {
+        margin: 0 ;
+    }
+    header nav li:last-child {
+        margin: 0 ;
+    }
+}
+/*-------------------
     HEADER
     --------------*/
 #hero {
@@ -115,6 +178,7 @@ hr {
     padding: 10px;
     background-color: #f7f7f7;
     margin-bottom: 20px;
+    min-height: 100vh;
 }
 #two-cols {
     display: flex;
@@ -126,7 +190,7 @@ hr {
 .about-image {
     border: 4px solid #ECD078;
     background-color: #ECD078;
-    max-width: 30%;
+    max-width: 20%;
 }
 
 .about-bio {
@@ -248,9 +312,11 @@ hr {
             flex-basis: 75%;
             margin-bottom: 65px;
         }
+
         #getting-around ul.grid li p {
             text-align: center;
         }
+        
     }
 /*-------------------
     QUOTES
@@ -271,7 +337,6 @@ hr {
 
     #famous-quotes .portrait-photos:firs-child {
         margin-top: 20px;
-
     }
 
     #famous-quotes .quote {
@@ -285,16 +350,18 @@ hr {
     #famous-quotes .author {
         margin: 20px auto;
     }
+
     #famous-quotes .author:last-child {
         margin-bottom: 0;
 
     }
+
     @media(max-width: 1000px) {
         #famous-quotes .quote {
             font-size: 18px;
             padding: 0 20px;
-
         }
+
         #famous-quotes .author {
             font-size: 14px;
         }
@@ -304,7 +371,7 @@ hr {
     --------------*/
     section.flexbox-section {
         width: 100%;
-        
+        height: 100vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -315,6 +382,9 @@ hr {
         margin-bottom: 35px;
         padding: 0 20px;
         line-height: 1.5;
+    }
+    #mapid {
+     height: 70vh;   
     }
 /*-------------------
     FOOTER
