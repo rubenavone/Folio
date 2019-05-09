@@ -12,8 +12,97 @@ Header:
 
 About:
 
+
+Passionné par l'informatique depuis l'âge de sept ans,
+j'ai aujourd'hui décidé de faire de cette passion mon métier.
+Pourquoi pas plus tôt ?
+Simplement un choix de vie, ayant passé un très grand nombre d'heures à explorer le web,
+à essayer diverses technologies, j'ai décidé de partir dans d'autres métiers afin d'explorer autres choses.
+Aujourd'hui le contexte a changé, la demande au fil des années devient de plus en plus
+forte et mes compétences peuvent être plus utiles que jamais.
+
+J'ai commencé par démonter, remonter des ordinateurs.
+Diagnostique de panne réparation avec les moyens du bord.
+J'aime encore aujourd'hui mettre les mains dans le cambouis,
+enlever des composants les changer, pousser les limites de mon matériel,
+tester recommencer ... 
+Au niveau software j'ai bien évidemment au fil des bugs du remettre mes compétences en question.
+Rechercher des solutions par moi-même grâce au world wide web,
+les mettre en pratique et souvent corriger les problèmes que j'ai pu rencontrer,
+j'ai bien évidemment essuyé quelques échecs balayés par de nombreuses réussites.
+
+Mais et la programmation dans cette histoire ?
+Effectivement et je serais honnête avec vous et moi-même,
+la logique de la programmation n'est pas instinctive chez moi,
+j'ai souvent et je bataille encore avec les langages afin d'en
+ comprendre toutes les mécanique.
+Néanmoins je fais preuve d'une motivation importante, d'un d'acharnement certain.
+
+
+
+
 Gallery:
 
+Web Agency :
+
+"Une réalisation sans framework"
+
+Réalisation du site web agence lors de ma première soutenance,
+la contrainte etais de ne pas utiliser Javascript pour faire le carrousel.
+Respect du cahier des charges mis en place et gestion des images,
+mettre en bas de page une carte de google avec un formulaire de contact.
+Le site respecte les normes W3C et n'a donc pas d'erreur de validation.
+
+Picture Perfect: 
+"Une réalisation avec Bootstrap"
+
+Un autre exercices cette fois-ci lié à un cours open classroom 
+où il est demandé de réaliser une maquette avec bootstrap. 
+Pas de contrainte particulière, exercices intéressant pour pousser 
+l'utilisation de bootstrap et tester mes capacités dans les mises en forme d'un projet.
+
+wp strasbourg:
+
+"Un site wordpress"
+
+Pour une seconde soutenance lors de ma formation open classroom,
+ici on retrouve une réalisation portée sur une office du tourisme.
+Ce site devait être réalisé entièrement avec Word Press,
+il est ici question de comprendre les differents plugins WordPress (contactform, Yoast Seo etc).
+Les contraintes pour la réalisation de ce projet était de ne pas utiliser de builder de créent un thème enfant et ainsi de modifier
+ le CSS de celui afin de rentrée en conformité avec le cahier des charges attendu. Le site passe les norme d'handicap (AChecker)
+
+l'à à la bouche: 
+
+"Site pour un restaurant niçois"
+
+Réalisation a l'aide de bootstrap , une simple vitrine pour le restaurant d'amis. Cliquez ici
+
+
+
+
 Getting-around:
+
+HTML5:
+HTML est le premier langage que j'ai appris, en paralèle 
+
+CSS3:
+
+
+Javascript:
+
+
+nodeJs:
+
+
+Java:
+
+
+Git:
+
+
+Linux addict:
+
+
 
 Footer:
